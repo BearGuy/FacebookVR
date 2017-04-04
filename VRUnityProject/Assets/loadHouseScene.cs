@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class loadHouseScene : MonoBehaviour {
 
 	void OnMouseDown() {
-		Application.LoadLevel ("house_scene");
+		SceneManager.LoadScene ("house_scene");
 	}
 }

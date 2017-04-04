@@ -1,10 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoadForestScene : MonoBehaviour {
 
 	void OnMouseDown() {
-		Application.LoadLevel ("Forest");
+		SceneManager.LoadScene ("Forest");
+
+	}
+
+	public void loadForest() {
+		SceneManager.LoadScene ("Forest");
 	}
 }
