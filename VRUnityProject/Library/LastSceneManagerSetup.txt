@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/house_scene.unity
+- path: Assets/Forest.unity
   isLoaded: 1
   isActive: 1

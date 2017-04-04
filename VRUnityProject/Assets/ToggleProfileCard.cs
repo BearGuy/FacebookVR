@@ -6,7 +6,7 @@ public class ToggleProfileCard : MonoBehaviour {
 	public GameObject otherObject;
 
 	void Start() {
-		otherObject= GameObject.FindWithTag ("profileCard");
+		otherObject = GameObject.FindWithTag ("profileCard");
 		otherObject.SetActive (false);
 	}
 

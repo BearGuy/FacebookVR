@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ToggleSearchResults : MonoBehaviour {
 	public GameObject otherObject;
+
 	void Start() {
 		otherObject = GameObject.FindWithTag("searchResults");
 		otherObject.SetActive(false);
@@ -15,8 +16,5 @@ public class ToggleSearchResults : MonoBehaviour {
 		else
 			otherObject.SetActive (true);
 	}
-
-
-	void Update () {
-	}
+		
 }

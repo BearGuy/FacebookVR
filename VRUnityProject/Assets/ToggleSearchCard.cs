@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ToggleSearchCard : MonoBehaviour {
-
 	public GameObject otherObject;
-	void Start() {
+
+	void Awake() {
 		otherObject=GameObject.FindWithTag("searchCard");
 		otherObject.SetActive (false);
 	}

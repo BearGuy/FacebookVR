@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\LoadForestScene.cs" />
+     <Compile Include="Assets\TogglePost.cs" />
      <Compile Include="Assets\ToggleProfileCard.cs" />
      <Compile Include="Assets\ToggleSearchCard.cs" />
      <Compile Include="Assets\ToggleSearchResults.cs" />
