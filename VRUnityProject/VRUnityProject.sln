@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRUnityProject", "Assembly-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRUnityProject", "Assembly-CSharp-Editor-firstpass.csproj", "{12C47FA7-8F1F-111E-8C06-A860FB4DA8D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRUnityProject", "Assembly-CSharp-Editor.csproj", "{E53E8BEF-2EFE-21B9-8D51-5346D41EDD68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{12C47FA7-8F1F-111E-8C06-A860FB4DA8D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12C47FA7-8F1F-111E-8C06-A860FB4DA8D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12C47FA7-8F1F-111E-8C06-A860FB4DA8D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53E8BEF-2EFE-21B9-8D51-5346D41EDD68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53E8BEF-2EFE-21B9-8D51-5346D41EDD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53E8BEF-2EFE-21B9-8D51-5346D41EDD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53E8BEF-2EFE-21B9-8D51-5346D41EDD68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
