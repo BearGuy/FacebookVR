@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ToggleNotificationsCard : MonoBehaviour {
 	public GameObject otherObject;
+
 	void Start() {
 		otherObject = GameObject.FindWithTag("notificationsCard");
 		otherObject.SetActive(false);
